@@ -1,0 +1,360 @@
+body{
+    background-image: url("https://image.freepik.com/free-vector/color-seamless-space-pattern_102902-2360.jpg");
+    background-attachment: fixed;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+    
+    input{
+      position: absolute;
+      top: 780px;
+      left: 1050px;
+      width: 210px;
+    }
+    
+    audio{
+      position: absolute;
+      top: 600px;
+      left: 1050px;
+    }
+    
+    canvas{
+      border-radius: 30px;
+      border: solid 2px black;
+    }
+    
+    #space{
+      position: absolute;
+      top: 373px;
+      left: 120px;
+      width: 200px;
+      height: 100px;
+      border-radius: 30px;
+      transition-duration: 0.5s;
+      content: "Space";
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    #left{
+      position: absolute;
+      top: 370px;
+      left: 10px;
+      width: 100px;
+      height: 100px;
+      border-radius: 30px;
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    #right{
+      position: absolute;
+      top: 370px;
+      left: 330px;
+      width: 100px;
+      height: 100px;
+      border-radius: 30px;
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .button {
+      border-radius: 30px;
+      font-family: "Trebuchet MS";
+      font-size: 20px;
+      transition-duration: 0.5s;
+      position: absolute;
+      background-color: transparent;
+    }
+    
+    .button:focus {
+      outline: none;
+      box-shadow: none;
+    }
+    
+    .button:hover {
+      font-size: 23px;
+      color: red;
+      cursor: pointer;
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .button:active {
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    
+    #levelChangerButton{
+      top: 150px;
+      left: 425px;
+      width: 200px;
+      height: 80px;
+    }
+    #levelChangerButton:hover{
+      top: 145px;
+      left: 420px;
+      width: 210px;
+      height: 90px;
+    }
+    
+    #upgradeMenuButton{
+      top: 20px;
+      left: 425px;
+      width: 200px;
+      height: 80px;
+    }
+    
+    #upgradeMenuButton:hover{
+      top: 15px;
+      left: 420px;
+      width: 210px;
+      height: 90px;
+    }
+    
+    #upgrade1Button{
+      background: url("https://image.flaticon.com/icons/png/64/2949/2949056.png");
+      background-size: 100%;
+      top: 130px;
+      left: 100px;
+      width: 170px;
+      height: 175px;
+    }
+    
+    #upgrade1Button:hover{
+      top: 125px;
+      left: 95px;
+      width: 200px;
+      height: 205px;
+    }
+    
+    #upgrade1Button:hover span{
+      display: none;
+    }
+    
+    #upgrade1Button:hover:before{
+      content: "Upgrade your SpaceShip";
+      color: black;
+    }
+    
+    #upgrade2Button{
+      background: url("https://image.flaticon.com/icons/png/64/594/594846.png");
+      background-size: 100%;
+      top: 130px;
+      left: 435px;
+      width: 170px;
+      height: 175px;
+    }
+    
+    #upgrade2Button:hover{
+      top: 125px;
+      left: 430px;
+      width: 200px;
+      height: 205px;
+    }
+    
+    #upgrade2Button:hover span{
+      display: none;
+    }
+    
+    #upgrade2Button:hover:before{
+      content: "Get a shield to protect you";
+      color: black;
+    }
+    
+    #upgrade3Button{
+      background: url("https://image.flaticon.com/icons/png/64/1673/1673624.png");
+      background-size: 100%;
+      top: 130px;
+      left: 750px;
+      width: 170px;
+      height: 175px;
+    }
+    
+    #upgrade3Button:hover{
+      top: 125px;
+      left: 745px;
+      width: 200px;
+      height: 205px;
+    }
+    
+    #upgrade3Button:hover span{
+      display: none;
+    }
+    
+    #upgrade3Button:hover:before{
+      content: "Refill your HP to 100";
+      color: black;
+    }
+    
+    #instructionsMenuButton{
+      top: 280px;
+      left: 425px;
+      width: 200px;
+      height: 80px;
+    }
+    
+    #instructionsMenuButton:hover{
+      top: 275px;
+      left: 420px;
+      width: 210px;
+      height: 90px;
+    }
+    
+    #instruction1Button{
+      background: url("https://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/arrow-left-icon.png");
+      background-size: 100%;
+      top: 70px;
+      left: 100px;
+      width: 170px;
+      height: 175px;
+    }
+    
+    #instruction1Button:hover{
+      top: 65px;
+      left: 95px;
+      width: 200px;
+      height: 205px;
+    }
+    
+    #instruction1Button:hover span{
+      display: none;
+    }
+    
+    #instruction1Button:hover:before{
+      content: "Press to Move Left";
+      color: black;
+    }
+    
+    #instruction2Button{
+      background: url("https://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/blank-keyboard-key-icon.png");
+      background-size: 100%;
+      top: 70px;
+      left: 435px;
+      width: 170px;
+      height: 175px;
+    }
+    
+    #instruction2Button:hover{
+      top: 65px;
+      left: 430px;
+      width: 200px;
+      height: 205px;
+    }
+    
+    #instruction2Button:hover span{
+      display: none;
+    }
+    
+    #instruction2Button:hover:before{
+      content: "Press to shoot";
+      color: black;
+    }
+    
+    #instruction3Button{
+      background: url("https://icons.iconarchive.com/icons/chromatix/keyboard-keys/128/arrow-right-icon.png");
+      background-size: 100%;
+      top: 70px;
+      left: 750px;
+      width: 170px;
+      height: 175px;
+    }
+    
+    #instruction3Button:hover{
+      top: 65px;
+      left: 745px;
+      width: 200px;
+      height: 205px;
+    }
+    
+    #instruction3Button:hover span{
+      display: none;
+    }
+    
+    #instruction3Button:hover:before{
+      content: "Press to Move Right";
+      color: black;
+    }
+    
+    
+    progress {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 1023px;
+      height: 40px;
+      position: absolute;
+      top: 755px;
+      left: 10px;
+    }
+    
+    progress::-webkit-progress-value {
+      background-image:
+           -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%),
+         -webkit-linear-gradient(top, green, green),
+         -webkit-linear-gradient(left, #09c, #f44);
+        border-radius: 2px;
+        background-size: 35px 20px, 100% 100%, 100% 100%;
+    }
+    
+    progress::-webkit-progress-bar {
+      background-color: red;
+      border-radius: 2px;
+      box-shadow: 0 10px 5px rgba(0, 0, 0, 0.5) inset;
+    }
+    progress:before {
+      content: attr(data-label);
+      font-size: 2em;
+      vertical-align: 0;
+      position: absolute;
+      left: 450px;
+      right: 0;
+    }
+    #score {
+      color: red;
+      position: absolute;
+      top: 10px;
+      left: 1050px;
+      font-size: 50px;
+    }
+    #scorePoints {
+      color: white;
+      position: absolute;
+      top: 60px;
+      left: 1050px;
+      font-size: 50px;
+    }
+    
+    #bestScore {
+      color: red;
+      position: absolute;
+      top: 400px;
+      left: 1050px;
+      font-size: 50px;
+    }
+    #bestScorePoints {
+      color: white;
+      position: absolute;
+      top: 470px;
+      left: 1050px;
+      font-size: 50px;
+    }
+    #upgrade {
+      color: red;
+      position: absolute;
+      top: 200px;
+      left: 1050px;
+      font-size: 50px;
+    }
+    #upgradePoints {
+      color: white;
+      position: absolute;
+      top: 310px;
+      left: 1050px;
+      font-size: 50px;
+    }
+    
+    #soundController{
+      color: red;
+      position: absolute;
+      top: 700px;
+      left: 1050px;
+      font-size: 50px;
+    }

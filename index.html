@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+
+<head>
+ <title>Anti Aircraft Game</title>
+ <meta name = "description" content = "My simple game">
+ <meta name = "author" content = "Ashot Danielyan">
+ <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+
+<canvas width = "1023" height = "740"></canvas>
+
+<progress id = "hp" value = "100" max = "100" data-label = "HealthBar"></progress>
+
+<input type = "range" id = "volume" value = "100">
+
+<audio id = "song" autoplay controls loop>
+  <source src = "https://patrickdearteaga.com/audio/Chiptronical.ogg">
+</audio>
+
+<button class = "button" id = "levelChangerButton">Proceed to level 1</button>
+<button class = "button" id = "upgradeMenuButton">Upgrade Menu</button>
+<button class = "button" id = "upgrade1Button"><span>200 Points</span></button>
+<button class = "button" id = "upgrade2Button"><span>100 Points</span></button>
+<button class = "button" id = "upgrade3Button"><span>50 Points</span></button>
+<button class = "button" id = "instructionsMenuButton">Instructions Menu</button>
+<button class = "button" id = "instruction1Button"><span>Left Arrow</span></button>
+<button class = "button" id = "instruction2Button"><span>Space</span></button>
+<button class = "button" id = "instruction3Button"><span>Right Arrow</span></button>
+
+<span id = "score">Score</span><span id = "scorePoints">0</span>
+<span id = "upgrade">Upgrade Points</span><span id = "upgradePoints">0</span>
+<span id = "soundController">Ingame Sounds</span>
+<span id = "bestScore">Best Score</span><span id = "bestScorePoints">0</span>
+<script src = "script.js"></script>
+</body>
+
+</html>
