@@ -48,7 +48,7 @@ const backgroundImg = document.createElement("img"),
       bulletSound = document.createElement("audio");
 
 backgroundImg.src = "https://st2.depositphotos.com/4967103/9877/v/950/depositphotos_98778706-stock-illustration-seamless-pattern-cosmic-objects-set.jpg";
-heroImg.src = "https://www.freepik.com/free-vector/isolated-rocket-transparent_11067988.htm#fromView=keyword&page=1&position=1&uuid=2becc783-2ff8-457f-b8c4-c9b4ce09c8ff&query=Spaceship+png";
+heroImg.src = "https://img.freepik.com/free-vector/isolated-rocket-transparent_1308-49950.jpg?semt=ais_incoming&w=740&q=80";
 enemy1Img.src = "https://image.flaticon.com/icons/png/64/3306/3306574.png";
 enemy2Img.src = "https://image.flaticon.com/icons/png/64/1970/1970302.png";
 enemy3Img.src = "https://image.flaticon.com/icons/png/64/190/190276.png";
@@ -769,5 +769,6 @@ function instructionsMenuButtonClick(){
   instruction3Button.hidden = true;
  }
 }
+
 
 
