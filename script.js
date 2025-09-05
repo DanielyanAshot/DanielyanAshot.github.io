@@ -430,7 +430,7 @@ upgrade1Button.addEventListener("click", function(){
    data.upgradePoints -= 200;
    data.hero.level = 2;
    upgrade1Button.innerHTML = "400 Points"
-   heroImg.src = "https://image.flaticon.com/icons/png/64/1308/1308750.png";
+   heroImg.src = "https://cdn-icons-png.flaticon.com/512/1985/1985789.png";
   }
   else{
    alert("You need " + (200 - data.upgradePoints) + " More Points")
@@ -444,7 +444,7 @@ upgrade1Button.addEventListener("click", function(){
    upgradeSound.play();
    data.upgradePoints -= 400;
    data.hero.level = 3;
-   heroImg.src = "https://image.flaticon.com/icons/png/64/1985/1985789.png";
+   heroImg.src = "https://cdn-icons-png.flaticon.com/512/1888/1888008.png";
    upgrade1Button.hidden = true;
   }
   else{
@@ -769,6 +769,7 @@ function instructionsMenuButtonClick(){
   instruction3Button.hidden = true;
  }
 }
+
 
 
 
