@@ -51,7 +51,7 @@ backgroundImg.src = "https://st2.depositphotos.com/4967103/9877/v/950/depositpho
 heroImg.src = "https://cdn-icons-png.flaticon.com/512/8598/8598585.png";
 enemy1Img.src = "https://cdn-icons-png.flaticon.com/512/18033/18033834.png";
 enemy2Img.src = "https://cdn-icons-png.flaticon.com/512/1970/1970285.png";
-enemy3Img.src = "https://cdn-icons-png.flaticon.com/512/2513/2513456.png";
+enemy3Img.src = "./photo_2025-08-01_09-16-54.png";
 enemy1BulletImg.src = "https://cdn-icons-png.flaticon.com/512/9252/9252648.png";
 enemy2BulletImg.src = "https://cdn-icons-png.flaticon.com/512/5538/5538085.png"
 heroBulletsImg.src = "https://cdn-icons-png.flaticon.com/512/224/224681.png";
@@ -769,6 +769,7 @@ function instructionsMenuButtonClick(){
   instruction3Button.hidden = true;
  }
 }
+
 
 
 
