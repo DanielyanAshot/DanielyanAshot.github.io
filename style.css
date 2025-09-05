@@ -111,7 +111,7 @@ body{
     }
     
     #upgrade1Button{
-      background: url("https://image.flaticon.com/icons/png/64/2949/2949056.png");
+      background: url("https://cdn-icons-png.flaticon.com/512/1985/1985789.png");
       background-size: 100%;
       top: 130px;
       left: 100px;
@@ -136,7 +136,7 @@ body{
     }
     
     #upgrade2Button{
-      background: url("https://image.flaticon.com/icons/png/64/594/594846.png");
+      background: url("https://cdn-icons-png.flaticon.com/512/1888/1888008.png");
       background-size: 100%;
       top: 130px;
       left: 435px;
@@ -357,4 +357,5 @@ body{
       top: 700px;
       left: 1050px;
       font-size: 50px;
+
     }
