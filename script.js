@@ -48,7 +48,7 @@ const backgroundImg = document.createElement("img"),
       bulletSound = document.createElement("audio");
 
 backgroundImg.src = "https://st2.depositphotos.com/4967103/9877/v/950/depositphotos_98778706-stock-illustration-seamless-pattern-cosmic-objects-set.jpg";
-heroImg.src = "https://img.freepik.com/free-vector/isolated-rocket-transparent_1308-49950.jpg?semt=ais_incoming&w=740&q=80";
+heroImg.src = "https://cdn-icons-png.flaticon.com/512/8598/8598585.png";
 enemy1Img.src = "https://img.lovepik.com/free-png/20210927/lovepik-cartoon-alien-spaceship-png-image_401557791_wh1200.png";
 enemy2Img.src = "https://image.flaticon.com/icons/png/64/1970/1970302.png";
 enemy3Img.src = "https://image.flaticon.com/icons/png/64/190/190276.png";
@@ -769,6 +769,7 @@ function instructionsMenuButtonClick(){
   instruction3Button.hidden = true;
  }
 }
+
 
 
 
