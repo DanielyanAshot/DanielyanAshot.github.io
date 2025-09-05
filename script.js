@@ -49,14 +49,14 @@ const backgroundImg = document.createElement("img"),
 
 backgroundImg.src = "https://st2.depositphotos.com/4967103/9877/v/950/depositphotos_98778706-stock-illustration-seamless-pattern-cosmic-objects-set.jpg";
 heroImg.src = "https://cdn-icons-png.flaticon.com/512/8598/8598585.png";
-enemy1Img.src = "https://img.lovepik.com/free-png/20210927/lovepik-cartoon-alien-spaceship-png-image_401557791_wh1200.png";
-enemy2Img.src = "https://image.flaticon.com/icons/png/64/1970/1970302.png";
-enemy3Img.src = "https://image.flaticon.com/icons/png/64/190/190276.png";
-enemy1BulletImg.src = "https://image.flaticon.com/icons/png/64/523/523762.png";
-enemy2BulletImg.src = "https://image.flaticon.com/icons/png/64/3325/3325078.png"
+enemy1Img.src = "https://cdn-icons-png.flaticon.com/512/18033/18033834.png";
+enemy2Img.src = "https://cdn-icons-png.flaticon.com/512/1970/1970285.png";
+enemy3Img.src = "https://cdn-icons-png.flaticon.com/512/2513/2513456.png";
+enemy1BulletImg.src = "https://cdn-icons-png.flaticon.com/512/9252/9252648.png";
+enemy2BulletImg.src = "https://cdn-icons-png.flaticon.com/512/5538/5538085.png"
 heroBulletsImg.src = "https://cdn-icons-png.flaticon.com/512/224/224681.png";
-shieldImg.src = "https://image.flaticon.com/icons/png/64/594/594846.png";
-hpBoxImg.src = "https://image.flaticon.com/icons/png/64/1673/1673624.png";
+shieldImg.src = "https://cdn-icons-png.flaticon.com/512/1724/1724683.png";
+hpBoxImg.src = "https://cdn-icons-png.flaticon.com/512/4968/4968678.png";
 hitSound.src = "http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/pause.wav";
 bulletSound.src = "http://commondatastorage.googleapis.com/codeskulptor-assets/jump.ogg";
 upgradeSound.src = "http://codeskulptor-demos.commondatastorage.googleapis.com/descent/gotitem.mp3";
@@ -769,6 +769,7 @@ function instructionsMenuButtonClick(){
   instruction3Button.hidden = true;
  }
 }
+
 
 
 
